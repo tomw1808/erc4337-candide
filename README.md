@@ -1,3 +1,7 @@
+# ERC4337 Demo
+
+![Screenshot of ERC4337 Demo](./chatter-erc4337.png?raw=true "ERC4337 Chat App Demo")
+
 It is an ERC4337 Demo using the [SafeWallet](https://app.safe.global/) as onchain wallet via [Candide Abstractionkit](https://docs.candide.dev/wallet/abstractionkit/introduction/). It follows largely the demo of [this video walkthrough](https://youtu.be/v_V4Wqcn7vE).
 
 ## Getting Started
@@ -11,6 +15,8 @@ cd erc4337-candide
 npm i
 npm run dev
 ```
+
+**Note:** If it runs slow with the chat-messages, try adding an Infura-ID to `.env`. If there is no infura id, it will automatically use a public provider which might be slow.
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
