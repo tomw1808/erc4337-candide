@@ -34,7 +34,7 @@ To learn more about ERC4337 Account Abstraction, take a look at the following re
 
 ## Get In Touch
 
-[Me](https://thomaswiesner.com)
-[My Github](https://github.com/tomw1808)
-[Find me on LinkedIn](https://www.linkedin.com/in/thomas-wiesner)
-[Find me on Discord](https://discord.gg/nKV7xzxdEh)
+ - [Me](https://thomaswiesner.com)
+ - [My Github](https://github.com/tomw1808)
+ - [Find me on LinkedIn](https://www.linkedin.com/in/thomas-wiesner)
+ - [Find me on Discord](https://discord.gg/nKV7xzxdEh)
