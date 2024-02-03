@@ -1,6 +1,6 @@
 # ERC4337 Demo
 
-It is an ERC4337 Demo Chat Application using the [SafeWallet](https://app.safe.global/) as onchain wallet via [Candide Abstractionkit 0.1.3](https://docs.candide.dev/wallet/abstractionkit/introduction/). It follows largely the demo of [this video walkthrough](https://youtu.be/v_V4Wqcn7vE).
+It is an ERC4337 Demo Chat Application (similar to [this demo](https://erc4337-chatter-nextjs-app.vercel.app/candide)) using the [SafeWallet](https://app.safe.global/) as onchain wallet via [Candide Abstractionkit 0.1.3](https://docs.candide.dev/wallet/abstractionkit/introduction/). It follows largely the demo of [this video walkthrough](https://youtu.be/v_V4Wqcn7vE).
 
 ![Screenshot of ERC4337 Demo](./chatter-erc4337.png?raw=true "ERC4337 Chat App Demo")
 
