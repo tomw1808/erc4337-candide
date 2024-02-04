@@ -2,12 +2,10 @@
 import MessageHistory from '@/components/MessageHistory';
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 import { useEffect, useState } from 'react';
-import { Log, encodeFunctionData, getAddress, toHex } from 'viem';
+import { encodeFunctionData, getAddress } from 'viem';
 import {
-  SafeAccountV0_2_0 as SafeAccount, Operation,
-  GasEstimationResult,
-  UserOperation,
-  Bundler, JsonRpcError, MetaTransaction, SmartAccount
+  SafeAccountV0_2_0 as SafeAccount,
+  UserOperation, MetaTransaction
 } from "abstractionkit";
 
 const ZeroAddress = "0x0000000000000000000000000000000000000000";
@@ -28,12 +26,9 @@ const UserOperationDummyValues: UserOperation = {
 
 import entrypointabi from "../lib/entrypoint";
 
-import { useAccount, useChainId, useContractWrite, usePrepareContractWrite, usePublicClient, useWaitForTransaction, useWalletClient } from 'wagmi';
+import { useAccount, useChainId, useContractWrite, usePrepareContractWrite, usePublicClient, useWalletClient } from 'wagmi';
 import JazziconImage from '@/components/JazziconImage';
 import { Message } from '@/lib/types/Message';
-import waitForUserOperationTransaction from '@/lib/waitForTx';
-import Link from 'next/link';
-
 const rpcUrl = "https://sepolia.test.voltaire.candidewallet.com/rpc";
 // const rpcUrl = `https://api.stackup.sh/v1/node/${process.env.NEXT_PUBLIC_STACKUP_API}`;
 
